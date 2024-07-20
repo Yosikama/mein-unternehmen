@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Unternehmen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei Mein Unternehmen</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Dienstleistungen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Startseite</h2>
+            <p>Hier ist eine kurze Beschreibung deines Unternehmens.</p>
+        </section>
+        <section id="about">
+            <h2>Über uns</h2>
+            <p>Informationen über dein Unternehmen.</p>
+        </section>
+        <section id="services">
+            <h2>Dienstleistungen</h2>
+            <p>Details zu den Dienstleistungen, die du anbietest.</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Deine Kontaktdaten.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mein Unternehmen. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
